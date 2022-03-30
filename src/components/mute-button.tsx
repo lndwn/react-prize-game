@@ -44,7 +44,7 @@ export const MuteButton = () => {
         htmlFor="global-mute"
         width="2rem"
         height="2rem"
-        borderWidth="1px"
+        borderWidth="2px"
         borderStyle="solid"
         borderColor="whites.0"
         borderRadius="999px"

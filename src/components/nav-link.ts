@@ -7,11 +7,11 @@ export const NavLink = styled(Link)`
   line-height: 1;
   padding: 0.5em 0.75em;
   color: ${({ theme }) => theme.colors.whites[0]};
-  border-width: 1px;
+  border-width: 2px;
   border-style: solid;
   border-color: ${({ theme }) => theme.colors.whites[0]};
   text-decoration: none;
-  border-radius: 1em;
+  border-radius: 999px;
   margin: 0 0.25em;
 
   &.active,
