@@ -16,9 +16,6 @@ export const NavigationView = () => {
         <NavLink activeClassName="active" to={paths.play}>
           Play
         </NavLink>
-        <NavLink activeClassName="active" to={paths.congrats}>
-          Prize
-        </NavLink>
       </Inline>
       <Block width="1.5rem" />
     </Inline>
