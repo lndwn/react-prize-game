@@ -1,0 +1,10 @@
+export { default as businessParrotUrl } from "./businessparrot.gif";
+export { default as catJamUrl } from "./catjam.gif";
+export { default as dogSpinUrl } from "./dogspin.gif";
+export { default as excuseMeUrl } from "./excuseme.gif";
+export { default as fingergunsUrl } from "./fingerguns.png";
+export { default as fidgetSpinnerUrl } from "./fidgetspinner.gif";
+export { default as parrotUrl } from "./parrot.gif";
+export { default as homerDisappearUrl } from "./homer-disappear.gif";
+export { default as thonk360Url } from "./thonk-360.gif";
+export { default as lizardUrl } from "./lizard.gif";
