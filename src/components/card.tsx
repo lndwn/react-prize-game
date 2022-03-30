@@ -66,28 +66,8 @@ export const Card = (props: CardProps) => {
           src={props.frontImage}
           style={{ aspectRatio: "1/1" }}
         />
-        {/* {props.frontLabel} */}
       </CardFront>
-      <CardBack>
-        {props.backLabel}
-        {/* <Block
-          position="absolute"
-          bottom="1rem"
-          right="1rem"
-          style={{ fontSize: "1rem" }}
-        >
-          {props.frontLabel}
-        </Block> */}
-        <Block
-          as="img"
-          width="10%"
-          position="absolute"
-          bottom="1rem"
-          right="1rem"
-          src={props.frontImage}
-          style={{ aspectRatio: "1/1" }}
-        />
-      </CardBack>
+      <CardBack>{props.backLabel}</CardBack>
     </Button>
   );
 };

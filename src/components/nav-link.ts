@@ -19,4 +19,6 @@ export const NavLink = styled(Link)`
     color: ${({ theme }) => theme.colors.fadedBlue};
     background-color: ${({ theme }) => theme.colors.whites[0]};
   }
+
+  transition: color 150ms ease, background-color 150ms ease;
 `;

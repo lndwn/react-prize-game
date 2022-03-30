@@ -6,10 +6,21 @@ import { UIText } from "./text";
 
 const Label = styled(Inline)`
   cursor: pointer;
+  transition: color 150ms ease, background-color 150ms ease;
+
+  :hover {
+    background-color: ${({ theme }) => theme.colors.whites[0]};
+    color: ${({ theme }) => theme.colors.blacks[0]};
+
+    svg path {
+      fill: ${({ theme }) => theme.colors.fadedBlue};
+    }
+  }
   svg {
     display: block;
   }
   svg path {
+    transition: fill 150ms ease;
     fill: ${({ theme }) => theme.colors.whites[0]};
   }
 `;

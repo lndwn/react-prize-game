@@ -6,7 +6,9 @@ import { paths } from "./routes";
 export const NavigationView = () => {
   return (
     <Inline p="1rem" width="100%" justifyContent="space-between">
-      <Block width="1.5rem" />
+      <Block>
+        <MuteButton />
+      </Block>
       <Inline>
         <NavLink activeClassName="active" to={paths.welcome}>
           Home
@@ -18,9 +20,7 @@ export const NavigationView = () => {
           Prize
         </NavLink>
       </Inline>
-      <Block>
-        <MuteButton />
-      </Block>
+      <Block width="1.5rem" />
     </Inline>
   );
 };
